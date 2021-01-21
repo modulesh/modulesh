@@ -1,0 +1,45 @@
+ source spinners.sh
+ 
+ timeout="3" # any time as second
+ spinone
+    
+sleep="0.5" # any time as second
+spintwo
+    
+sleep="0.5" 
+spinthree
+
+ a script by extensionsapp
+progreSh 10 ; some command
+progreSh 20 ; some command
+progreSh 30 ; some command
+progreSh 40 ; some command
+progreSh 50 ; some command
+progreSh 60 ; some command
+progreSh 70 ; some command
+progreSh 80 ; some command
+progreSh 90 ; some command
+progreSh 100 ; some command
+
+Author: Tasos Latsas
+
+spinner.sh
+
+Display an awesome 'spinner' while running your long shell commands
+
+Do *NOT* call _spinner function directly.
+Use {start,stop}_spinner wrapper functions
+
+usage:
+  1. source this script in your's
+  2. start the spinner:
+      start_spinner [display-message-here]
+  3. run your command
+  4. stop the spinner:
+      stop_spinner [your command's exit status]
+
+$1 start/stop
+    
+on start: $2 display message
+on stop : $2 process exit status
+          $3 spinner function pid (supplied from stop_spinner)

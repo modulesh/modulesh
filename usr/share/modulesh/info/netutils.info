@@ -1,0 +1,29 @@
+source include-sh netutils
+
+netcheck is a function show if you are online or not
+usage:
+netcheck -p
+
+mylocalip function is show your local ip adress
+usage:
+mylocalip -p 
+
+mypublicip function is show your public ip adress
+usage:
+mypublicip -p 
+
+getinfo is the best funciton of netutils
+usage:
+endline="true" or endline="false"
+getinfo <ip adress> -p/-pJ
+or
+getinfo me -p
+
+getsipeip funciton is get site ip adrees to domain
+usage:
+getsiteip google.com
+
+is the check port function.
+usage: 
+amisee 127.0.0.1 8080 -p
+if that port is open amisee="true" else amisee="false"

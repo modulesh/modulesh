@@ -1,0 +1,7 @@
+This module check if user root or no
+usage:
+source include-sh checkroot
+checkroot -e # after check if the user not have 0 id so if the 
+not root then terminate the proccess
+or just:
+ checkroot # this is the simple usage just given a variable after executation the funciton

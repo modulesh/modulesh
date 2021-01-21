@@ -1,0 +1,13 @@
+source include-sh
+
+Yesorno <function name for true end> <funtion name for false end>
+
+pressanykey # press any key to continue without timeout
+
+setchar="=" # any character you want to be make padding
+centexpad "any text"
+==================== any text ====================
+
+pressankeysec 3 # first argument be needed to integer char to time
+
+simtext "some text"

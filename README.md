@@ -33,7 +33,7 @@ $ getmodule uninstall ngrok
 ```
 
 # usage of modulesh
-please read the help argüment output. **modulesh --help**
+please read the help argument output. **modulesh --help**
 
 ```bash
 #!/bin/bash

@@ -40,7 +40,7 @@ please read the help argument output. **modulesh --help**
 . modulesh color textutils ngrok # ngrok module not yet added in local modules or libs just for give example 
 echo -e "${red} Welcome this is the color.sh module magic${reset}"
 __ngrok 8080 # ngrok started redirecting as 127.0.0.1:8080
-centexpad "$ngrok_link"
+centexpad "link: $ngrok_link"
 __ngrok stop
 ```
 

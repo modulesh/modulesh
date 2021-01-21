@@ -5,14 +5,14 @@
 </p>
 
 
-## İnstalation
+## install
 ```bash
 $ git clone https://github.com/modulesh/modulesh
 $ cd modulesh
 $ sudo bash ./installer.sh --install
 ```
 
-## Unİnsstalation
+## uninstall
 ```bash
 $ cd modulesh
 $ sudo bash ./installer.sh --uninstall

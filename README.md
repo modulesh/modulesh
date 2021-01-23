@@ -19,17 +19,17 @@ $ sudo bash ./installer.sh --uninstall
 ```
 
 ## get new modules
-getmodule install <module repo name> 
+getmodulshe install <module repo name> 
 
 ```bash
 $ getmodule install ngrok 
 ```
 
 ## remove modules
-getmodule uninstall <module repo name> 
+getmodulesh uninstall <module repo name> 
 
 ```bash
-$ getmodule uninstall ngrok 
+$ getmodulesh uninstall ngrok 
 ```
 
 # usage of modulesh
